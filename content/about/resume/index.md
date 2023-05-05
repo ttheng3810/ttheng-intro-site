@@ -22,7 +22,7 @@ Co-curricular activities I have participated include software development and mu
 
 - _Computing_: [LaTeX](https://www.latex-project.org/), Python, R, Microsoft Office, website development ([Hugo](https://gohugo.io/)), Unix shell
 - _Media_: GIMP/Adobe Photoshop, Kdenlive/Adobe Premiere Pro, [Canva](https://www.canva.com/)
-- _Language_: English (good), Mandarin Chinese (native), Malay (good), Cantonese (native)_
+- _Language_: English (good), Mandarin Chinese (native), Malay (good), Cantonese (native)
 
 ## Projects/Portfolios
 

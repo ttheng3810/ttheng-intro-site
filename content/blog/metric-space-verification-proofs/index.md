@@ -74,4 +74,4 @@ We verify that $(S,d)$ is a metric space.
 - Symmetry: This follows immediately from the definition of the metric.
 - Triangle Inequality: Fix any two numbers $a,b \in \mathbb{R}$. If $a=b$, then $d(a,b)=0 \leqslant d(a,c)+d(c,b)$ since both terms of the right-hand side of the inequality are nonnegative, so the triangle inequality is satisfied for this case. If $a \neq b$, then $d(a,b)=1$. Take another number $c$. Since $a \neq b$, we can only have at most one equality for between $a$ and $c$ and between $b$ and $c$, so $d(a,c)+d(c,b) \geqslant 1 = d(a,b)$, and thus the triangle inequality is satisfied for this case too. Since two numbers are either equal or not equal, this proves the triangle inequality for the general case.
 
-[^1]: I'd say this term choice is not immediately intuitive, but it has become the default convention in the literature anyways.
+[^1]: I'd say this term choice is slightly misleading, but it has become the default convention in the literature anyways.
