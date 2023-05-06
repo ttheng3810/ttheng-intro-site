@@ -20,8 +20,11 @@ Formally, a metric space is defined as a pair $(S,d)$, where $S$ is a set and $d
 
 For $(S,d)$ to be a metric space, the metric $d$ should satisfy the following key properties:
 - Positivity: $d(x,y)$ is _nonnegative_[^1], i.e. $d(x,y) \geqslant 0$, for all $x, y \in S$.
+
 - Definiteness: $d(x,y) = 0$ if and only if $x=y$, for all $x, y \in S$.
+
 - Symmetry: $d(x,y)=d(y,x)$, for all $x, y \in S$.
+
 - [Triangle Inequality](https://en.wikipedia.org/wiki/Triangle_inequality): $d(x,y) \leqslant d(x,z)+d(z,y)$, for all $x,y,z \in S$.
 
 ## Verification proofs of common metric spaces
