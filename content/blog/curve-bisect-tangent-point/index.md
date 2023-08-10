@@ -10,9 +10,9 @@ math: true
 toc: true
 ---
 
-There is an intriguing geometry-sounding question that appears in a mathematics textbook used by Malaysian Chinese independent secondary schools, which is stated as follows:-
+There is an intriguing geometry-sounding question that appears in a mathematics textbook used by [Malaysian Chinese independent secondary schools](https://en.wikipedia.org/wiki/Chinese_independent_high_school), which is stated as follows:-
 
-> _A curve has the following property: for any tangent line to the curve, its line segment that lies between the two coordinate axes is bisected by the tangent point. Find the equation of the curve._[^1]
+> _A curve has the following property: for any tangent line to the curve, its line segment that lies between the two coordinate axes is bisected by the tangent point. Find the equation of the curve._[^1] <cite>Advanced Mathematics, Upper Secondary 3 (Volume 2), 1st edition, UCSCAM</cite>
 
 For now, I will not reveal the chapter of the textbook in which this question is featured in order not to spoil the fun. Assuming that we encounter this question out of nowhere (say, a final exam paper), this problem may seem vague and thus not easy to navigate a strategy of solving it at first glance.
 
@@ -117,7 +117,7 @@ As an extra exercise, you may try solving this similar question, also found in t
 > Find the equation of a curve such that the $y$-intercept of its tangent lines is equal to the $x$-coordinate of the tangent point.
 > (Hint: this question involves [homogenous first-order differential equations](https://en.wikipedia.org/wiki/Homogeneous_differential_equation#Homogeneous_first-order_differential_equations).)
 
-[^1]: Actually, this question is originally stated in Chinese, and an initial condition that the curve passes through the point (2, 3) is actually given in the original. For the curious, here's the original question: “一曲线通过点（2，3），它在两坐标轴间的任意切线线段均被切点所平分，求这曲线方程。” However, in this article, I'd like to focus on the general solution, so I've slightly edited the question.
+[^1]: Actually, this question is originally written in Chinese, and an initial condition that the curve passes through the point (2, 3) is given in the original. For the curious, here's the original question: “一曲线通过点（2，3），它在两坐标轴间的任意切线线段均被切点所平分，求这曲线方程。” However, in this article, I'd like to focus on the general solution, so I've slightly edited the question.
 
 [^2]: In multivariable calculus, the intuition of associating derivatives with gradients becomes less helpful. You may watch [this video by Mathemaniac](https://www.youtube.com/watch?v=wCZ1VEmVjVo) for a more in-depth way of understanding derivatives.
 
