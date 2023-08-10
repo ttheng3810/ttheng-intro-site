@@ -24,7 +24,7 @@ Here, we assume that the curve passes through the point $P(x_0,y_0)$, and it lie
 
 ![The point P on the Cartesian plane.]()
 
-Next, we could try to guess the shape of the curve that passes through $P$, and determine its tangent line on $P$ from there. However, it is actually more straightforward to set the curve issue aside first, and instead focus on the tangent line itself, considering that more information about the tangent line is given in the question.
+We could try to guess the shape of the curve that passes through $P$, and determine its tangent line on $P$ from there. However, it is actually more straightforward to set the curve issue aside first, and instead focus on the tangent line itself, considering that more information about the tangent line is given in the question.
 
 ![Several guesses of the shape of the curve and the corresponding tangent line passing through P.]()
 
@@ -73,7 +73,7 @@ Therefore, $Q=(2x_0,0)$. Note as well that the exact value of $l$ does not matte
 
 ## Introducing, Differential Equations
 
-Now that we obtain two points on the tangent line (segment), let's shift our focus on two keywords in the question, 'curve' and 'tangent'. If you've taken a calculus course before, they may remind you of the first derivative, or more precisely, the fact that the gradient of the tangent line to a curve on a Cartesian plane at a point corresponds to the first derivative of the curve at the point.[^2]
+Now that we obtain two points on the tangent line (segment), let's shift our focus to two keywords in the question, 'curve' and 'tangent'. If you've taken a calculus course before, they may remind you of the first derivative, or more precisely, the fact that the gradient of the tangent line to a curve on a Cartesian plane at a point corresponds to the first derivative of the curve at the point.[^2]
 
 This is where the two points on the tangent line we've previously obtained, $P$ and $Q$ become useful. We can apply [the gradient formula](https://en.wikipedia.org/wiki/Slope) to obtain another expression of the gradient of the tangent line to the curve at $P$, denoted here as $m_{PQ}$. $$m_{PQ}=\frac{y_Q-y_P}{x_Q-x_P}=\frac{0-y_0}{2x_0-x_0}=-\frac{y_0}{x_0}$$
 
@@ -99,7 +99,7 @@ If you've learnt some analytic geometry before, you may recognise that it is the
 
 If we are given an initial condition, i.e. a point on the curve, say, $(3,2)$, then we can solve for a specific value of $C$ by substituting the $x$- and $y$-coordinates into the general solution and obtain a particular solution, which in this case is $xy=6$.
 
-Notice that if such point lies on the first or third quadrant, the $xy$-coordinates will be either both positive or both negative, which results in a positive value of $C$. On the other hand, if it lies on the second or fourth quadrant, the coordinates will be one positive and one negative, thus resulting in a negative value of $C$.
+Notice that if such point lies on the first or third quadrant, the $xy$-coordinates will be either both positive or both negative, which results in a positive value of $C$. On the other hand, if it lies on the second or fourth quadrant, the $xy$-coordinates will be of different signs, thus resulting in a negative value of $C$.
 
 ![A rectangular hyperbola with C to be negative.]()
 
@@ -111,7 +111,7 @@ Having solved this question, I can now reveal that this question appears in the 
 
 It is interesting to see how differential equations can be applied to solve a question that is seemingly unrelated to it, and how its answer provides us a useful insight to better understand a fairly standard shape in analytic geometry. 
 
-I also like how it introduces some sort of curve ball by leading us to apply our knowledge about similar triangles to answer a question that is supposed to serve a purpose of training students on solving differential equations. This further demonstrates how gathering what we know from different branches of mathematics is useful in mathematical problem solving.
+I also like how it introduces some sort of curve ball by leading us to apply our knowledge about similar triangles to answer a question that is supposed to serve a purpose of training students on solving differential equations. This further demonstrates how different branches of mathematics interconnect in mathematical problem solving.
 
 As an extra exercise, you may try solving this similar question, also found in the same textbook:
 > Find the equation of a curve such that the $y$-intercept of its tangent lines is equal to the $x$-coordinate of the tangent point.
