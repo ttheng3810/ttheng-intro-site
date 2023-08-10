@@ -83,7 +83,7 @@ Since our choice of the point $P$ is (to some extent in this case, but in genera
 
 This is a differential equation, or more precisely, a [first-order separable ordinary differential equation](https://tutorial.math.lamar.edu/Classes/DE/Separable.aspx)! To solve this equation, we can 'rearrange' the terms, ... $$\frac{1}{x}dx=-\frac{1}{y}dy$$
 
-...then integrate both sides of the equation, ... $$\int{\frac{1}{x}}dx=\int{\left(-\frac{1}{y}\right)}dy \Rightarrow \ln x = -\ln y + C \Rightarrow \ln x + \ln y = C'$$
+...then integrate both sides of the equation, ... $$\int{\frac{1}{x}}dx=\int{\left(-\frac{1}{y}\right)}dy \Rightarrow \ln x = -\ln y + C' \Rightarrow \ln x + \ln y = C'$$
 
 ...and using [the properties of natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm#Properties), we finally obtain the following: $$xy=C$$ (where $C$ and $C'$ above are constants of integration, and $C=e^{C'}$).
 
@@ -115,9 +115,8 @@ I also like how it introduces some sort of curve ball by leading us to apply our
 
 As an extra exercise, you may try solving this similar question, also found in the same textbook:
 > Find the equation of a curve such that the $y$-intercept of its tangent lines is equal to the $x$-coordinate of the tangent point.
-> (Hint: this question involves [homogenous first-order differential equations](https://en.wikipedia.org/wiki/Homogeneous_differential_equation#Homogeneous_first-order_differential_equations).)
+> _(Hint: this question involves [homogenous first-order differential equations](https://en.wikipedia.org/wiki/Homogeneous_differential_equation#Homogeneous_first-order_differential_equations).)_
 
 [^1]: Actually, this question is originally written in Chinese, and an initial condition that the curve passes through the point (2, 3) is given in the original. For the curious, here's the original question: “一曲线通过点（2，3），它在两坐标轴间的任意切线线段均被切点所平分，求这曲线方程。” However, in this article, I'd like to focus on the general solution, so I've slightly edited the question.
 
 [^2]: In multivariable calculus, the intuition of associating derivatives with gradients becomes less helpful. You may watch [this video by Mathemaniac](https://www.youtube.com/watch?v=wCZ1VEmVjVo) for a more in-depth way of understanding derivatives.
-
