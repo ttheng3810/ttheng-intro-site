@@ -93,13 +93,13 @@ This is the general equation of the curve that we're looking for.
 
 You may ask: what is so special about the equation we've found?
 
-If you've learnt some analytic geometry before, you may recognise that it is the [general equation](https://en.wikipedia.org/wiki/Hyperbola#Hyperbola_with_equation_y_=_A/x) of a [rectangular hyperbola](https://en.wikipedia.org/wiki/Hyperbola#Rectangular_hyperbola) with the coordinate axes as asymptotes! _(Figure below _
+If you've learnt some analytic geometry before, you may recognise that it is the [general equation](https://en.wikipedia.org/wiki/Hyperbola#Hyperbola_with_equation_y_=_A/x) of a [rectangular hyperbola](https://en.wikipedia.org/wiki/Hyperbola#Rectangular_hyperbola) with the coordinate axes as asymptotes!
 
 ![Rectangular hyperbolas with the coordinate axes as asymptotes.](./Hyperbeln-gs-3.svg)
 
 If we are given an initial condition, i.e. a point on the curve, say, $(3,2)$, then we can solve for a specific value of $C$ by substituting the $x$- and $y$-coordinates into the general solution and obtain a particular solution, which in this example is $xy=6$.
 
-Notice that if such point lies on the first or third quadrant, the $xy$-coordinates will be either both positive or both negative, which results in a positive value of $C$. On the other hand, if it lies on the second or fourth quadrant, the $xy$-coordinates will be of different signs, thus resulting in a negative value of $C$. In fact, the hyperbolas in the case of positive and negative $C$ are said to be [_conjugates_](https://en.wikipedia.org/wiki/Hyperbola#Conjugate_hyperbola) with each other.
+Notice that if such point lies on the first or third quadrant, the $xy$-coordinates will be either both positive or both negative, which results in a positive value of $C$. On the other hand, if it lies on the second or fourth quadrant, the $xy$-coordinates will be of different signs, thus resulting in a negative value of $C$. In fact, such hyperbolas with $C$ of opposite signs are said to be [_conjugates_](https://en.wikipedia.org/wiki/Hyperbola#Conjugate_hyperbola) of each other.
 
 ![A rectangular hyperbola with C to be negative.]()
 
