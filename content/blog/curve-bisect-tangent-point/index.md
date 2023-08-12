@@ -103,7 +103,7 @@ Notice that if such point lies on the first or third quadrant, the $xy$-coordina
 
 ![A rectangular hyperbola with C to be negative.]()
 
-This explains why the choice of the intersection point $P$ as mentioned above is _really_ arbitrary, as no matter which quadrant $P$ lies on, the resulting curve will still be a rectangular hyperbola with the axes as asymptotes.
+This explains why the choice of the intersection point $P$ as mentioned above is _really_ arbitrary, as no matter which quadrant $P$ lies on, the resulting curve will still be a rectangular hyperbola with the axes as asymptotes. You may access [this GeoGebra file](https://geogebra.org/calculator/jm4w8pd9) to see how such structure is preserved as $C$ varies.
 
 ## Conclusion
 
