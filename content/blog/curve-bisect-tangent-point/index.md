@@ -41,7 +41,7 @@ There are several implications made by this statement alone:-
 
 These implications indeed apply for the tangent to the curve at the point $P$, which we assume to lie on the first quadrant without touching the axes (which we now know is guaranteed), as well.
 
-In this case, the tangent line will not be a horizontal nor vertical line (otherwise it cannot be enclosed by both axes). It will also not be a line with a positive gradient as the resulting enclosed line segment will lie on the second quadrant, thus not passing through the tangent point itself.
+In this case, the tangent line will not be a horizontal nor vertical line (otherwise it cannot be enclosed by both axes). It will also not be a line with a positive gradient as the resulting enclosed line segment will lie on the second or fourth quadrant, thus not passing through the tangent point itself.
 
 Therefore, the tangent line can only be one with a negative gradient, with the required line segment inside the first quadrant.
 
@@ -53,7 +53,7 @@ Next, we try to find the $x$-intercept of the tangent line, which will come in u
 
 Notice that the axes and the tangent line segment enclosed by them form a right-angled triangle. The $x$-intercept of the tangent line is then the vertex opposite the right angle, which we will denote here by $Q(k,0)$, where $k>x_0$ as it is at the right side of $P$. To find where $Q$ is, we need to find the value of $k$.
 
-![A right-angled triangle formed by the segments of the axes and the tangent line.]()
+![A right-angled triangle formed by the segments of the axes and the tangent line (not to scale).]()
 
 Now, if we draw a vertical line from the point $P$ to the base of the triangle, can you see what we obtain?
 
@@ -103,7 +103,7 @@ Notice that if such point lies on the first or third quadrant, the $xy$-coordina
 
 ![A rectangular hyperbola with C to be negative.]()
 
-This explains why the choice of the intersection point $P$ as mentioned above is _really_ arbitrary, as no matter which quadrant $P$ lies on, the resulting curve will still be a rectangular hyperbola with the axes as asymptotes. You may access [this GeoGebra file](https://geogebra.org/calculator/jm4w8pd9) to see how such structure is preserved as $C$ varies.
+This explains why the choice of the intersection point $P$ as mentioned above is _really_ arbitrary, as no matter which quadrant $P$ lies on, the resulting curve will still be a rectangular hyperbola with the axes as asymptotes. You may access [this GeoGebra file](https://geogebra.org/calculator/jm4w8pd9) to see how such structure is preserved as $C$ varies[^3].
 
 ## Conclusion
 
@@ -120,3 +120,5 @@ As an extra exercise, you may consider what happens if the division ratio of the
 [^1]: Actually, this question is originally written in Chinese, and an initial condition that the curve passes through the point (2, 3) is given in the original. For the curious, here's the original question: “一曲线通过点（2，3），它在两坐标轴间的任意切线线段均被切点所平分，求这曲线方程。” However, in this article, I'd like to focus on the general solution, so I've slightly modified the question.
 
 [^2]: In multivariable calculus, the intuition of associating derivatives with gradients becomes less helpful. You may watch [this video by Mathemaniac](https://www.youtube.com/watch?v=wCZ1VEmVjVo) for a more in-depth way of understanding derivatives.
+
+[^3]: Except for the degenerate case when $C=0$.
