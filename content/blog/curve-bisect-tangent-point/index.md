@@ -22,11 +22,11 @@ However, we can still see a first step. Since this question involves curves, at 
 
 Here, we assume that the curve passes through the point $P(x_0,y_0)$, and it lies on the [first quadrant](https://en.wikipedia.org/wiki/Quadrant_(plane_geometry)) of the 2D Cartesian plane and does not touch the axes. We then plot $P$ on the plane.
 
-![The point P on the Cartesian plane.]()
+![The point P on the Cartesian plane.](./point_p.svg "The point P on the Cartesian plane.")
 
 We could try to guess the shape of the curve that passes through $P$, and determine its tangent line on $P$ from there. However, it is actually more straightforward to set the curve issue aside first, and instead focus on the tangent line itself, considering that more information about the tangent line is given in the question.
 
-![Several guesses of the shape of the curve and the corresponding tangent line passing through P.]()
+![Several guesses of the shape of the curve and the corresponding tangent line passing through P.](./curve_guesses.svg "Several guesses of the shape of the curve and the corresponding tangent line passing through P.")
 
 ## Determine the Tangent Line Segment
 
@@ -45,7 +45,7 @@ In this case, the tangent line will not be a horizontal nor vertical line (other
 
 Therefore, the tangent line can only be one with a negative gradient, with the required line segment inside the first quadrant.
 
-![Several cases of the tangent line at P.]()
+![Several cases of the tangent line at P.](./tangent_guesses.svg "Several cases of the tangent line at P.")
 
 ## Find the x-intercept
 
@@ -53,13 +53,13 @@ Next, we try to find the $x$-intercept of the tangent line, which will come in u
 
 Notice that the axes and the tangent line segment enclosed by them form a right-angled triangle. The $x$-intercept of the tangent line is then the vertex opposite the right angle, which we will denote here by $Q(k,0)$, where $k>x_0$ as it is at the right side of $P$. To find where $Q$ is, we need to find the value of $k$.
 
-![A right-angled triangle formed by the segments of the axes and the tangent line (not to scale).]()
+![A right-angled triangle formed by the segments of the axes and the tangent line.](./triangle.svg "A right-angled triangle formed by the segments of the axes and the tangent line (not to scale).")
 
 Now, if we draw a vertical line from the point $P$ to the base of the triangle, can you see what we obtain?
 
 Yes, we get two [similar triangles](https://www.khanacademy.org/test-prep/praxis-math/praxis-math-lessons/gtp--praxis-math--lessons--geometry/a/gtp--praxis-math--article--congruence-and-similarity--lesson) (try verifying this if this is unclear to you by considering the angles of the triangles). Even better, thanks to the property that the point $P$ _bisects_ the line segment, we get two similar triangles such that the length of the hypotenuse of the smaller triangle is exactly half of the larger one!
 
-![Two similar triangles obtained from the triangle mentioned above.]()
+![Two similar triangles obtained from the triangle mentioned above.](./triangle_similar.svg "Two similar triangles obtained from the triangle mentioned above.")
 
 This allows us to utilise the equality of the corresponding side length ratios of similar triangles to find the value of $k$. 
 
@@ -95,13 +95,13 @@ You may ask: what is so special about the equation we've found?
 
 If you've learnt some analytic geometry before, you may recognise that it is the [general equation](https://en.wikipedia.org/wiki/Hyperbola#Hyperbola_with_equation_y_=_A/x) of a [rectangular hyperbola](https://en.wikipedia.org/wiki/Hyperbola#Rectangular_hyperbola) with the coordinate axes as asymptotes!
 
-![Rectangular hyperbolas with the coordinate axes as asymptotes.](./Hyperbeln-gs-3.svg)
+![Rectangular hyperbolas with the coordinate axes as asymptotes.](./Hyperbeln-gs-3.svg "Rectangular hyperbolas with the coordinate axes as asymptotes. (Source: Ag2gaeh, CC BY-SA 4.0, via Wikimedia Commons)")
 
 If we are given an initial condition, i.e. a point on the curve, say, $(3,2)$, then we can solve for a specific value of $C$ by substituting the $x$- and $y$-coordinates into the general solution and obtain a particular solution, which in this example is $xy=6$.
 
 Notice that if such point lies on the first or third quadrant, the $xy$-coordinates will be either both positive or both negative, which results in a positive value of $C$. On the other hand, if it lies on the second or fourth quadrant, the $xy$-coordinates will be of different signs, thus resulting in a negative value of $C$. In fact, such hyperbolas with $C$ of opposite signs are said to be [_conjugates_](https://en.wikipedia.org/wiki/Hyperbola#Conjugate_hyperbola) of each other.
 
-![A rectangular hyperbola with C to be negative.]()
+![A rectangular hyperbola with C to be negative.](./hyperbola_recip.svg "A rectangular hyperbola with C to be negative.")
 
 This explains why the choice of the intersection point $P$ as mentioned above is _really_ arbitrary, as no matter which quadrant $P$ lies on, the resulting curve will still be a rectangular hyperbola with the axes as asymptotes. You may access [this GeoGebra file](https://geogebra.org/calculator/jm4w8pd9) to see how such structure is preserved as $C$ varies[^3].
 
